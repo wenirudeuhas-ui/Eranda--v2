@@ -43,7 +43,7 @@ try {
 
 // ---------------- CONFIG ----------------
 
-const BOT_NAME_FANCY = '─͟͟͞͞ එරන්ද📍 MINI';
+const BOT_NAME_FANCY = '𝐄𝐫𝐚𝐧𝐝𝐚 𝐌𝐃📍 MINI';
 
 const config = {
     // Bot Settings
@@ -67,8 +67,8 @@ const config = {
 // Configs
 const footer = `*🫟 THANKS FOR CONTACT ERANDA*`
 const logo = `https://files.catbox.moe/ijtoiq.jpg`;
-const caption = `乂 ─͟͟͞͞ එරන්ද📍 𝕄𝕀ℕ𝕀 💖⦁⚋➩`; 
-const botName = '─͟͟͞͞ එරන්ද📍'
+const caption = `𝐄𝐫𝐚𝐧𝐝𝐚 𝐌𝐃📍 𝕄𝕀ℕ𝕀 💖⦁⚋➩`; 
+const botName = '𝐄𝐫𝐚𝐧𝐝𝐚 𝐌𝐃📍'
 const mainSite = 'https://kezu-df702966c9b8.herokuapp.com/';
 // පස්සෙ දාන්න මතක් කරපන් ඕක මට
 const apibase = 'https://kezu-df702966c9b8.herokuapp.com/'
@@ -870,13 +870,13 @@ function setupCommandHandlers(socket, number) {
                 },
                 message: {
                     contactMessage: {
-                        displayName: "─͟͟͞͞ එරන්ද📍-MD",
+                        displayName: "𝐄𝐫𝐚𝐧𝐝𝐚 📍-MD",
                         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:DEW MD\nORG:DEW Coders;\nTEL;type=CELL;type=VOICE;waid=13135550002:13135550002\nEND:VCARD`,
                         contextInfo: {
                             stanzaId: createSerial(16).toUpperCase(),
                             participant: "0@s.whatsapp.net",
                             quotedMessage: {
-                                conversation: "─͟͟͞͞ එරන්ද📍 AI"
+                                conversation: "𝐄𝐫𝐚𝐧𝐝𝐚 📍 AI"
                             }
                         }
                     }
@@ -892,7 +892,7 @@ function setupCommandHandlers(socket, number) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363426535147900@newsletter',
-                    newsletterName: '乂 ─͟͟͞͞ එරන්ද📍 𝕄𝕀ℕ𝕀 💖⦁⚋➩',
+                    newsletterName: '𝐄𝐫𝐚𝐧𝐝𝐚 📍 𝕄𝕀ℕ𝕀 💖⦁⚋➩',
                     serverMessageId: 143
                 }
             }; 
